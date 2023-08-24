@@ -17,7 +17,7 @@ group :jekyll_plugins do
 end
 
 # Emojis
-gem "jemoji"
+gem "jemoji", ">= 0.13.0"
 
 # External Testing
 gem "html-proofer"
