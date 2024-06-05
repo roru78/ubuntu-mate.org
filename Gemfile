@@ -13,7 +13,7 @@ group :jekyll_plugins do
 
     # Get modification date of pages
     # https://github.com/gjtorikian/jekyll-last-modified-at
-    gem "jekyll-last-modified-at"
+    gem "jekyll-last-modified-at", ">= 1.3.2"
 end
 
 # Emojis
