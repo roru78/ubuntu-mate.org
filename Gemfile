@@ -20,4 +20,4 @@ end
 gem "jemoji"
 
 # External Testing
-gem "html-proofer"
+gem "html-proofer", ">= 3.19.3"
