@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "bundler"
-gem "webrick"
+gem "webrick", ">= 1.8.2"
 
 group :jekyll_plugins do
     # RSS Feed Generation
@@ -20,4 +20,4 @@ end
 gem "jemoji"
 
 # External Testing
-gem "html-proofer"
+gem "html-proofer", ">= 3.19.3"
